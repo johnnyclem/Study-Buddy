@@ -34,7 +34,8 @@ typedef enum statusTypes
     
     // Setup web socket connection
     self.socketIO = [[SocketIO alloc] initWithDelegate:self];
-    [self.socketIO connectToHost:@"localhost" onPort:3000];
+//    [self.socketIO connectToHost:@"localhost" onPort:3000];
+    [self.socketIO connectToHost:@"study-buddy.herokuapp.com" onPort:80];
 }
 
 - (void)didReceiveMemoryWarning

@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DF8B9EDB-3F8B-466C-9EC7-72A234D76EE7</string>
+	<string>6B78230E-6B97-4619-BDEC-F1FFF0B71B44</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Study Buddy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>B815F45F-AE94-4A1E-85C8-47030EB422A7</key>
+		<string>ssh://github.com/johnnyclem/Study-Buddy.git</string>
 		<key>B868F2A6-19EB-4B89-B970-547476AF5745</key>
 		<string>https://github.com/johnnyclem/Code-Fellows.git</string>
 	</dict>
@@ -17,11 +19,13 @@
 	<string>Study Buddy/Study Buddy.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>B815F45F-AE94-4A1E-85C8-47030EB422A7</key>
+		<string>..</string>
 		<key>B868F2A6-19EB-4B89-B970-547476AF5745</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/johnnyclem/Code-Fellows.git</string>
+	<string>ssh://github.com/johnnyclem/Study-Buddy.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>B868F2A6-19EB-4B89-B970-547476AF5745</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Code Fellows</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B815F45F-AE94-4A1E-85C8-47030EB422A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Study Buddy</string>
 		</dict>
 	</array>
 </dict>
