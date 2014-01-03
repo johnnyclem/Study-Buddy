@@ -34,8 +34,7 @@ typedef enum statusTypes
     
     // Setup web socket connection
     self.socketIO = [[SocketIO alloc] initWithDelegate:self];
-//    [self.socketIO connectToHost:@"localhost" onPort:3000];
-    [self.socketIO connectToHost:@"study-buddy.herokuapp.com" onPort:80];
+    [self.socketIO connectToHost:@"cfstudybuddy.herokuapp.com" onPort:80];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,7 +46,7 @@ typedef enum statusTypes
 // Action to change my current status.  Called by the three status buttons
 - (IBAction)changeStatus:(id)sender
 {
-    NSLog(@"Changing Status To: %d", [(UIButton *)sender tag]);
+    NSLog(@"Changing Status To: %ld", (long)[(UIButton *)sender tag]);
     
     _currentStatus = [(UIButton *)sender tag];
     

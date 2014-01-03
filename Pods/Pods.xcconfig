@@ -1,7 +1,4 @@
-#include "Pods-SocketRocket.xcconfig"
-#include "Pods-socket.IO.xcconfig"
-ALWAYS_SEARCH_USER_PATHS = YES
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/SocketRocket" "${PODS_ROOT}/Headers/socket.IO"
-OTHER_LDFLAGS = -ObjC ${PODS_SOCKETROCKET_OTHER_LDFLAGS}
+OTHER_LDFLAGS = -ObjC -licucore -framework CFNetwork -framework Security
 PODS_ROOT = ${SRCROOT}/Pods
