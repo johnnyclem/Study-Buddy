@@ -19,7 +19,6 @@
 		EFF7C49F17B5A81A006832BE /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7C49E17B5A81A006832BE /* SBAppDelegate.m */; };
 		EFF7C4A217B5A81A006832BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF7C4A017B5A81A006832BE /* Main.storyboard */; };
 		EFF7C4A517B5A81A006832BE /* SBLectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7C4A417B5A81A006832BE /* SBLectureViewController.m */; };
-		EFF7C4A817B5A81A006832BE /* SBNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7C4A717B5A81A006832BE /* SBNotesViewController.m */; };
 		EFF7C4AA17B5A81A006832BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF7C4A917B5A81A006832BE /* Images.xcassets */; };
 		EFF7C4B117B5A81A006832BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7C4B017B5A81A006832BE /* XCTest.framework */; };
 		EFF7C4B217B5A81A006832BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF7C48E17B5A81A006832BE /* Foundation.framework */; };
@@ -57,8 +56,6 @@
 		EFF7C4A117B5A81A006832BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF7C4A317B5A81A006832BE /* SBLectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBLectureViewController.h; sourceTree = "<group>"; };
 		EFF7C4A417B5A81A006832BE /* SBLectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBLectureViewController.m; sourceTree = "<group>"; };
-		EFF7C4A617B5A81A006832BE /* SBNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBNotesViewController.h; sourceTree = "<group>"; };
-		EFF7C4A717B5A81A006832BE /* SBNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBNotesViewController.m; sourceTree = "<group>"; };
 		EFF7C4A917B5A81A006832BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFF7C4AF17B5A81A006832BE /* Study BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF7C4B017B5A81A006832BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,8 +132,6 @@
 				EFF7C4A017B5A81A006832BE /* Main.storyboard */,
 				EFF7C4A317B5A81A006832BE /* SBLectureViewController.h */,
 				EFF7C4A417B5A81A006832BE /* SBLectureViewController.m */,
-				EFF7C4A617B5A81A006832BE /* SBNotesViewController.h */,
-				EFF7C4A717B5A81A006832BE /* SBNotesViewController.m */,
 				EFF7C4A917B5A81A006832BE /* Images.xcassets */,
 				EFF7C49517B5A81A006832BE /* Supporting Files */,
 			);
@@ -309,7 +304,6 @@
 				EFF7C4A517B5A81A006832BE /* SBLectureViewController.m in Sources */,
 				EFF7C49B17B5A81A006832BE /* main.m in Sources */,
 				EFF7C49F17B5A81A006832BE /* SBAppDelegate.m in Sources */,
-				EFF7C4A817B5A81A006832BE /* SBNotesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

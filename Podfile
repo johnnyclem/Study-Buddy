@@ -1,3 +1,3 @@
-platform :ios, '6.1'
+platform :ios, '7.0'
 
-pod 'socket.IO', '~> 0.4.0'
+pod 'socket.IO'

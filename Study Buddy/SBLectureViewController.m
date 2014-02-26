@@ -34,7 +34,7 @@ typedef enum statusTypes
     
     // Setup web socket connection
     self.socketIO = [[SocketIO alloc] initWithDelegate:self];
-    [self.socketIO connectToHost:@"cfstudybuddy.herokuapp.com" onPort:80];
+    [self.socketIO connectToHost:@"localhost" onPort:3000];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,6 +50,7 @@ typedef enum statusTypes
     
     _currentStatus = [(UIButton *)sender tag];
     
+        
     [self handleStatusChange];
 }
 
