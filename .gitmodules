@@ -1,0 +1,3 @@
+[submodule "SBServer"]
+	path = SBServer
+	url = git@github.com:johnnyclem/SBServer.git
